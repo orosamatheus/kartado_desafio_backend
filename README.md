@@ -1,6 +1,6 @@
 # Olá, candidato(a)!
 
-Este é um breve desafio para avaliar sua familiaridade com algumas tecnologias e procedimentos que utilizamos na Kartado, além da sua capacidade de aprendizado, criatividade, e busca de conhecimento. Este documento possui três (3) páginas, sendo duas (2) páginas de instruções, e uma (1) página com a descrição do método de avaliação, e é muito importante que você o leia atentamente, em sua integridade.
+Este é um breve desafio para avaliar sua familiaridade com algumas tecnologias e procedimentos que utilizamos na Kartado, além da sua capacidade de aprendizado, criatividade, e busca de conhecimento. É muito importante que você leia esse documento atentamente, em sua integridade, para compreender todos os passos do desafio, assim como o método de avaliação.
 
 Em resumo, neste desafio, você iniciará a partir de um projeto de back-end existente, e fará algumas modificações para criar um novo endpoint de API, utilizando os dados pré-fornecidos.
 
