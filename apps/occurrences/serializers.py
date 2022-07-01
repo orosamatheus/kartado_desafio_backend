@@ -15,3 +15,25 @@ class RoadSerializer(serializers.HyperlinkedModelSerializer):
 
 
 # add new code below
+class OccurrenceSerializer(serializers.HyperlinkedModelSerializer):
+    road_name = serializers.SerializerMethodField()
+    status_name  = serializers.SerializerMethodField()
+
+    def get_road_name(self, obj):
+        return obj.road.name
+    
+    def get_status_name(self, obj):
+        return obj.status.name
+
+    class Meta:
+        model = Occurrence
+        fields=[
+            "description",
+            "road",
+            "road_name",
+            "km",
+            "status",
+            "status_name",
+            "created_at",
+            "updated_at",
+        ]
